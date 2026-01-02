@@ -21,7 +21,9 @@ app.use(express.json());
 app.use(cors({
     origin: [
         "http://localhost:5173", // frontend
-        "http://localhost:5174"  // admin panel
+        "http://localhost:5174" , // admin panel
+        "https://velvety-speculoos-97ba44.netlify.app",  //  frontend netlify link
+        "https://sparkly-belekoy-38922f.netlify.app"  // admin netlify link
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
