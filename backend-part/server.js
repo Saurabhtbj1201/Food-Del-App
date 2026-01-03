@@ -22,8 +22,8 @@ app.use(cors({
     origin: [
         "http://localhost:5173", // frontend
         "http://localhost:5174" , // admin panel
-        "https://velvety-speculoos-97ba44.netlify.app",  //  frontend netlify link
-        "https://sparkly-belekoy-38922f.netlify.app"  // admin netlify link
+        "https://new-food-delivery-app.netlify.app",  //  frontend netlify link
+        "https://new-food-delivery-admin.netlify.app"  // admin netlify link
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
